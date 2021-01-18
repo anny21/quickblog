@@ -1,5 +1,6 @@
 {
     "name": "devanny/quickblog",
+    "type": "library",
     "description": "This is a package to quickly create a simple blog application",
     "license": "MIT",
     "authors": [
