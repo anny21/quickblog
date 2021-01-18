@@ -15,6 +15,13 @@
         "psr-4": {
             "Devanny\\QuickBlog\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+          "providers": [
+            "Devanny\\QuickBlog\\QuickBlogServiceProvider"
+          ]
+        }
+      }
  
 }
