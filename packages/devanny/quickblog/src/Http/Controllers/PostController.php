@@ -8,7 +8,6 @@ use Devanny\QuickBlog\Models\Category;
 use Devanny\QuickBlog\Models\Tag;
 use Devanny\QuickBlog\Http\Traits\GetUser;
 use Illuminate\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Str;
 
 

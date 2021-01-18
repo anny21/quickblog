@@ -7,7 +7,6 @@ use Illuminate\Request;
 use Devanny\QuickBlog\Models\Category;
 use Devanny\QuickBlog\Models\Post;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Str;
 use Devanny\QuickBlog\Http\Traits\GetUser;
 
@@ -17,14 +16,14 @@ class CategoryController extends Controller
 {
    use GetUser;
 
-   public function __construct()
-   {
+     public function __construct()
+     {
        if(config('quickblog.auth') == 'Auth'){
 
          $this->middleware('quickAuth');
 
        }
-   }
+     }
      public function index()
      {
          $categories = Category::orderBy('id', 'desc')->get();

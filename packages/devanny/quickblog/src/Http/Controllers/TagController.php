@@ -3,7 +3,6 @@
 namespace Devanny\QuickBlog\Http\Controllers;
 
 use Illuminate\Request;
-use App\Http\Controllers\Controller;
 use Devanny\QuickBlog\Models\Tag;
 use Devanny\QuickBlog\Http\Requests\TagRequest;
 use Illuminate\Support\Str;
