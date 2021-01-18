@@ -10,16 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "repositories": [
-    {
-        "type": "path",
-        "url": "./packages/devanny/quickblog/"
-    }
-      ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "Devanny\\QuickBlog\\": "src/"
+            "Devanny\\QuickBlog\\":  "packages/devanny/quickblog/src"
         }
     },
     "extra": {
