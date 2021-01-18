@@ -14,7 +14,8 @@
     {
         "type": "path",
         "url": "./packages/devanny/quickblog/"
-    },
+    }
+      ],
     "require": {},
     "autoload": {
         "psr-4": {
