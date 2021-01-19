@@ -1,5 +1,5 @@
 <?php
-namespace Devanny\QuickBlog\Contract;
+namespace Devanny\QuickBlog\Contracts;
 
 
 Interface PostContract{
