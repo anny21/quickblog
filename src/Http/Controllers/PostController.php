@@ -3,9 +3,9 @@
 namespace Devanny\QuickBlog\Http\Controllers;
 
 use Devanny\QuickBlog\Http\Requests\PostRequest;
-use Devanny\QuickBlog\Models\Post;
-use Devanny\QuickBlog\Models\Category;
-use Devanny\QuickBlog\Models\Tag;
+use Devanny\QuickBlog\Eloquent\Post;
+use Devanny\QuickBlog\Eloquent\Category;
+use Devanny\QuickBlog\Eloquent\Tag;
 use Devanny\QuickBlog\Http\Traits\GetUser;
 use Illuminate\Request;
 use Illuminate\Support\Str;

@@ -3,7 +3,7 @@
 namespace Devanny\QuickBlog\Http\Controllers;
 
 use Illuminate\Request;
-use Devanny\QuickBlog\Models\Tag;
+use Devanny\QuickBlog\Eloquent\Tag;
 use Devanny\QuickBlog\Http\Requests\TagRequest;
 use Illuminate\Support\Str;
 use Devanny\QuickBlog\Http\Traits\GetUser;

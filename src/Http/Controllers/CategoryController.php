@@ -5,7 +5,7 @@ namespace Devanny\QuickBlog\Http\Controllers;
 use Devanny\QuickBlog\Http\Requests\CategoryRequest;
 use Illuminate\Request;
 use Devanny\QuickBlog\Models\Category;
-use Devanny\QuickBlog\Models\Post;
+use Devanny\QuickBlog\Eloquent\Post;
 
 use Illuminate\Support\Str;
 use Devanny\QuickBlog\Http\Traits\GetUser;
