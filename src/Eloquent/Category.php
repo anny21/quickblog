@@ -1,6 +1,6 @@
 <?php
 
-namespace Devanny\QuickBlog\Models;
+namespace Devanny\QuickBlog\Eloquent;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

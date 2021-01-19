@@ -1,14 +1,15 @@
 <?php
 
-namespace Devanny\QuickBlog\Models;
+namespace Devanny\QuickBlog\Eloquent;
 
 
+use Devanny\QuickBlog\Contract\PostContract;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Carbon\Carbon;
 
-class Post extends Model
+class Post extends Model implements PostContract
 {
     use HasFactory, SoftDeletes;
 

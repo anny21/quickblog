@@ -1,5 +1,5 @@
 {
-    "name": "devanny/quickblog",
+    "name": "devanny/laravel-quickblog",
     "type": "library",
     "description": "This is a package to quickly create a simple blog application",
     "license": "MIT",
@@ -13,7 +13,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Devanny\\QuickBlog\\":  "packages/devanny/quickblog/src"
+            "Devanny\\QuickBlog\\":  "src"
         }
     },
     "extra": {
