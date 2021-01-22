@@ -15,9 +15,11 @@ Quickblog is a laravel package for creating quick and fast blog for your applica
 
     composer require devanny/quickblog
  
-## After installation publish vendor files
+## After installation publish vendor files and run migration
 
     php artisan vendor:publish --provider="Devanny\QuickBlog\QuickBlogServiceProvider" --tag="blog"
+    
+    php artisan migrate
     
     php artisan storage:link 
  
