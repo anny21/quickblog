@@ -3,7 +3,7 @@
 namespace Devanny\QuickBlog;
 
 // use Illuminate\Contracts\Http\Kernel;
-use Devanny\QuickBlog\Middleware\Http\QuickAuth;
+use Devanny\QuickBlog\Http\Middleware\QuickAuth;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
