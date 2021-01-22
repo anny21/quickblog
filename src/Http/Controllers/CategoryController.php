@@ -4,7 +4,7 @@ namespace Devanny\QuickBlog\Http\Controllers;
 
 use Devanny\QuickBlog\Http\Requests\CategoryRequest;
 use Devanny\QuickBlog\Http\Traits\GetUser;
-use Devanny\QuickBlog\Models\Category;
+use Devanny\QuickBlog\Eloquent\Category;
 use Illuminate\Support\Str;
 
 class CategoryController extends Controller
