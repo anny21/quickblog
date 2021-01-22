@@ -27,6 +27,8 @@
                     </ul>
                 </div>
                 @endif
+
+                @include('includes.flash')
                 <form action="{{route('create-category')}}" method="post">
                     @csrf
                     <div class="form-group">
