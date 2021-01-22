@@ -26,6 +26,12 @@ Quickblog is a laravel package for creating quick and fast blog for your applica
 
     *** if you will be using authentication.. open config/quickblog and change auth value to 'Auth' ***
 
+## Routes
+
+    /posts - Get all blog posts
+    /categories - Get all Categories and create new category 
+    /tags - Get all Tags and create new tag
+
 ### Premium Partners
 
 - Non yet
