@@ -27,7 +27,7 @@
                     </ul>
                 </div>
                 @endif
-                @include('includes.flash')
+                @include('quickblog.includes.flash')
                 <form action="{{route('create-tag')}}" method="post">
                     @csrf
                     <div class="form-group">

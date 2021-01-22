@@ -28,7 +28,7 @@
                 </div>
                 @endif
 
-                @include('includes.flash')
+                @include('quickblog.includes.flash')
                 <form action="{{route('create-category')}}" method="post">
                     @csrf
                     <div class="form-group">

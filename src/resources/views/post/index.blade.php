@@ -60,7 +60,7 @@ HEADER
 	<div class="container">
 		<div class="row justify-content-between">
 			<div class="col-md-8">
-				@include('includes.flash')
+				@include('quickblog.includes.flash')
 				<h5 class="font-weight-bold spanborder"><span>All Stories</span></h5>
 				@forelse($posts as $post)
 				<div class="mb-3 d-flex justify-content-between">
