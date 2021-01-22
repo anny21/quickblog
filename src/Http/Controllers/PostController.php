@@ -72,7 +72,7 @@ class PostController extends Controller
             'masked' => Str::random(30),
         ]);
 
-        return back()->with('message', 'Post created successfully');
+        return redirect()->route('post.index')->with('message', 'Post created successfully');
     }
 
     public function show(Post $post)
