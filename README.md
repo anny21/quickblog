@@ -19,6 +19,9 @@ Quickblog is a laravel package for creating quick and fast blog for your applica
 
     php artisan vendor:publish --provider="Devanny\QuickBlog\QuickBlogServiceProvider" --tag="blog"
     
+    php artisan storage:link 
+ 
+    
 ## Config
 
     *** if you will be using authentication.. open config/quickblog and change auth value to 'Auth' ***
